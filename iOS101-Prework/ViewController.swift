@@ -13,10 +13,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+   
+    @IBOutlet var label1: UILabel!
+    @IBOutlet var label2: UILabel!
+    @IBOutlet var label3: UILabel!
+    
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
         let randomColor = changeColor()
         view.backgroundColor = randomColor
+        label1.textColor = randomColor
+        label2.textColor = randomColor
+        label3.textColor = randomColor
     }
     
     func changeColor() -> UIColor{
@@ -26,7 +33,4 @@ class ViewController: UIViewController {
         
         return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
     }
-    
-    
 }
-
