@@ -2,9 +2,12 @@
 
 Submitted by: **Steven Shi**
 
-**Background Changing Bio** is an app that... [TODO] 
+**Background Changing Bio** is an app that changes the background and text label 
+colors from clicking on the button.
 
-Time spent: 2 hours spent in total
+Time spent: 3 hours spent in total
+
+<iframe src="https://giphy.com/embed/yppE4sSwudammEqwip" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yppE4sSwudammEqwip">via GIPHY</a></p>
 
 ## Required Features
 
@@ -61,7 +64,7 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Steven Shi
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
